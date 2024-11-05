@@ -1,0 +1,114 @@
+/*global variables---------------------*/
+body{
+     background-color:black;
+}
+
+h1,h2{
+      color:blue;
+}
+
+h1 img{
+       width:50px;
+       height:40px;
+}
+/*email button--------------------------*/
+.theemail{
+          text-align:right;
+          margin-bottom:40px;
+}
+
+.email{
+       background-color:green;
+       color:white;
+       
+}
+
+/*navigation---------------------------*/
+nav{
+    background-color:greenyellow;
+    text-align:center;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+nav ul{
+      list-style:none;
+}
+nav ul li{
+              display:inline;
+              padding:10px 20px;
+}
+nav ul li a{
+    padding:5px 50px 5px 50px;
+    display:inline-block;
+    text-decoration:none;
+    font-size:25px;
+}
+
+/*upcoming movies--------------------*/
+.upcoming-movies{
+                 height:400px;
+                 display:flex;
+                 overflow-x:auto;
+}
+
+.upcoming-movies .thup iframe{
+                              margin:10px;                            
+}
+
+.upcoming-movies::-webkit-scrollbar{
+                                   background-color:#101010;
+}
+
+/*scrollbar - now showing------------------*/
+.scroll-bar{
+    height:450px;
+    display:flex;
+    overflow-x:auto;
+}
+
+.scroll-bar .th{
+    min-width:150px;
+    height:100px;
+    margin:50px;
+}
+
+.scroll-bar .th img{
+                    width:240px;
+                    height:360px;
+                    text-color:blue;
+}
+
+.scroll-bar::-webkit-scrollbar{
+                             background-color:#101010;
+}
+
+/*footer---------------------------*/
+.thefooter{
+     display:flex;
+     align-items:center;
+     justify-content:center;
+    
+}
+
+.icon img{
+          padding:5px;
+          margin:10px 40px 10px 30px;
+          width:30px;
+          border-radius:40px;
+}
+
+.icon p{
+        color:blue;
+       
+}
+
+.copyright p{
+             color:white;
+             text-align:center;
+}
+                           
+

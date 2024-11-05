@@ -1,0 +1,27 @@
+h1{
+   color:blue;
+}
+
+body{
+     background-color:black;
+}
+
+.raw{
+   display:flex;
+}
+
+.th img{
+     width:240px;
+     height:360px;
+     margin:50px 50px 20px 50px;
+    
+}
+
+.th p{
+      font-size:30px;
+}
+
+.th a{
+      text-decoration:none;
+}
+

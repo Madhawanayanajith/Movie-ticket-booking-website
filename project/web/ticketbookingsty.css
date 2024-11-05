@@ -1,0 +1,61 @@
+body{
+    background-color:black;
+    color:blue;
+}
+
+
+img{
+    width:50px;
+    height:50px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+h1{
+   color:blue;
+   text-align:center;
+   
+}
+
+td{
+   width:200px;
+   height:50px;
+   color:blue;
+}
+
+.show li {
+  display: flex;
+}
+
+.show li small {
+  margin: 10px;
+}
+.show{
+      display:flex;
+}
+.seat{
+      background-color:white;
+      height:25px;
+      width:15px;
+      margin:4px;
+      border-radius:5px;
+}
+
+.row{
+     display:flex;
+}
+
+.seat.selected{
+               background-color:blue;
+}
+
+.seat.occupied{
+               background-color:green;
+}
+
+.seat:not(.occupied):hover{
+    cursor:pointer;
+    transform:scale(1.2);
+}
